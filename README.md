@@ -28,10 +28,9 @@ Users can manage and buy books based on their type (shipped, emailed, or read-on
 
 
 ---
-
+<!-- ====== صف الجداول الكبيرة ====== -->
 <table>
   <tr>
-    <!-- أول جدول -->
     <td>
       <table border="1" cellpadding="4" cellspacing="0">
         <tr><th colspan="5">AspNetUsers 1</th></tr>
@@ -41,14 +40,181 @@ Users can manage and buy books based on their type (shipped, emailed, or read-on
         <tr><td>FirstName</td><td>LastName</td><td>Image</td><td>CreatedDate</td><td>IsActive</td></tr>
       </table>
     </td>
+  </tr>
+</table>
 
-    <!-- ثاني جدول جنب الأول -->
-   <td>
+<!-- ====== صف الجداول الكبيرة ====== -->
+<table>
+  <tr>
+    <td>
       <table border="1" cellpadding="4" cellspacing="0">
         <tr><th colspan="5">BodyProfile 1</th></tr>
         <tr><td>Id</td><td>UserId</td><td>Gender</td><td>Height</td><td>Weight</td></tr>
         <tr><td>BodyShape</td><td>SkinTone</td><td>HairColor</td><td>EyeColor</td><td>PreferredStyle</td></tr>
         <tr><td>AvatarUrl</td><td></td><td></td><td></td><td></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<!-- ====== صف الجداول الكبيرة ====== -->
+<table>
+  <tr>
+    <td>
+      <table border="1" cellpadding="4" cellspacing="0">
+        <tr><th colspan="5">Category 1</th></tr>
+        <tr><td>Id</td><td>Name</td><td>Gender</td><td></td><td></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <table border="1" cellpadding="4" cellspacing="0">
+        <tr><th colspan="5">SubCategory 1</th></tr>
+        <tr><td>Id</td><td>CategoryId</td><td>Name</td><td></td><td></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<!-- ====== صف الجداول الكبيرة ====== -->
+<table>
+  <tr>
+    <td>
+      <table border="1" cellpadding="4" cellspacing="0">
+        <tr><th colspan="5">Product 1</th></tr>
+        <tr><td>Id</td><td>Name</td><td>CategoryId</td><td>Description</td><td></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <table border="1" cellpadding="4" cellspacing="0">
+        <tr><th colspan="5">ProductVariant 1</th></tr>
+        <tr><td>Id</td><td>ProductId</td><td>Size</td><td>Color</td><td>Price</td></tr>
+        <tr><td>Stock</td><td>Model3DUrl</td><td></td><td></td><td></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <table border="1" cellpadding="4" cellspacing="0">
+        <tr><th colspan="5">VariantImage 1</th></tr>
+        <tr><td>Id</td><td>VariantId</td><td>ImageUrl</td><td></td><td></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<!-- ====== صف الجداول الكبيرة ====== -->
+<table>
+  <tr>
+    <td>
+      <table border="1" cellpadding="4" cellspacing="0">
+        <tr><th colspan="5">Cart 1</th></tr>
+        <tr><td>Id</td><td>UserId</td><td>CreatedAt</td><td>IsDeleted</td><td>TotalPrice</td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <table border="1" cellpadding="4" cellspacing="0">
+        <tr><th colspan="5">CartItem 1</th></tr>
+        <tr><td>Id</td><td>CartId</td><td>VariantId</td><td>Quantity</td><td></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<!-- ====== صف الجداول الصغيرة جنب بعض ====== -->
+<table>
+  <tr>
+    <td>
+      <table border="1" cellpadding="4" cellspacing="0">
+        <tr><th colspan="3">AspNetRoles 1</th></tr>
+        <tr><td>Id</td><td>Name</td><td>NormalizedName</td></tr>
+        <tr><td>ConcurrencyStamp</td><td></td><td></td></tr>
+      </table>
+    </td>
+    <td>
+      <table border="1" cellpadding="4" cellspacing="0">
+        <tr><th colspan="2">AspNetUserRoles 1</th></tr>
+        <tr><td>UserId</td><td>RoleId</td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<!-- ====== صف الجداول الصغيرة جنب بعض ====== -->
+<table>
+  <tr>
+    <td>
+      <table border="1" cellpadding="4" cellspacing="0">
+        <tr><th colspan="3">State 1</th></tr>
+        <tr><td>Id</td><td>Name</td><td></td></tr>
+      </table>
+    </td>
+    <td>
+      <table border="1" cellpadding="4" cellspacing="0">
+        <tr><th colspan="3">City 1</th></tr>
+        <tr><td>Id</td><td>Name</td><td>StateId</td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<!-- ====== صف الجداول الكبيرة ====== -->
+<table>
+  <tr>
+    <td>
+      <table border="1" cellpadding="4" cellspacing="0">
+        <tr><th colspan="5">Favorite 1</th></tr>
+        <tr><td>UserId</td><td>VariantId</td><td>CreatedAt</td><td></td><td></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <table border="1" cellpadding="4" cellspacing="0">
+        <tr><th colspan="6">Order 1</th></tr>
+        <tr><td>Id</td><td>UserId</td><td>CreatedDate</td><td>Status</td><td>TotalPrice</td><td>Address</td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <table border="1" cellpadding="4" cellspacing="0">
+        <tr><th colspan="5">OrderItem 1</th></tr>
+        <tr><td>Id</td><td>OrderId</td><td>VariantId</td><td>Quantity</td><td></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <table border="1" cellpadding="4" cellspacing="0">
+        <tr><th colspan="6">Contact 1</th></tr>
+        <tr><td>Id</td><td>UserId</td><td>Subject</td><td>Message</td><td>CreatedDate</td><td>Status</td></tr>
       </table>
     </td>
   </tr>
